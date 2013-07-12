@@ -134,6 +134,21 @@ XML/JSON.  For example:
 
 Default: false
 
+### Template Settings
+
+#### template.delimiters
+
+Specifies the template delimiters for your application as a space seperated list.
+If left unspecified, the default delimiters will be used.
+
+For example:
+    
+    template.delimiters = {% %}
+
+Will set the left and right default delimiters to {% and %} respectively.
+
+Default: {{ }}
+
 ### Internationalization (i18n)
 
 #### i18n.default_language
